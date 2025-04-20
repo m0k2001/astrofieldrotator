@@ -1,6 +1,6 @@
 Remix from different projects :
 
-[scopefocus.info](https://www.scopefocus.info/home/rotator)
+[scopefocus.info](https://www.scopefocus.info/home/rotator){:target="_blank"}
 <br>
 https://www.thingiverse.com/thing:5253710
 <br>
