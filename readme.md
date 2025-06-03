@@ -40,7 +40,7 @@ Tools :
 - Multimeter
 
 Her is a summary of different motor options and skills :
-| Moteur              |      17HS08-1004S           |     17HS4001        | Nema36 + Planetary  |
+| Moteur              | 17HS08-1004S | 17HS08-1004S | 17HS4001 | 17HS4001 | Nema36 + Planétaire |
 |---------------------|--------------|--------------|----------|----------|---------------------|
 | Pulley Teeth        | 16           | 20           | 16       | 20       | 20                  |
 | Torque (N.cm)       | 144          | 115          | 378      | 302      | 648                 |
