@@ -68,3 +68,5 @@ Her is a summary of different motor options (steps per degree is a parameter you
 Using planetary gearbox NEMA 36 and 54mm rotation ring should not cost more than 120€, without 3D printing and power source.
 
 Just to give a comparison, Zwo CAA is 399€, 25 N.cm torque, precision < 0,1° ( < 360 arcsec). But thickness is less important (17,5mm).
+
+Have fun !
