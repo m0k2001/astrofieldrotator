@@ -7,6 +7,10 @@ https://www.thingiverse.com/thing:5253710
 https://www.thingiverse.com/thing:5243794
 <br>
 
+You can use different motor options. 2 PCB and box heights if you solder Arduino Nano board directly on PCB or if you use pin headers to keep it removable.
+Backfocus length is about 25mm.
+It works perfectly fine with [ASCOM driver](https://drive.google.com/file/d/1Zqj4HnF0sWtz7hacBCAIt85_bKwMDyPM/view?usp=drive_web) (I personnaly use [N.I.N.A](https://nighttime-imaging.eu/) flawlessly).
+Ther's also a [Windows App](https://drive.google.com/file/d/1RpfXV0fqB5MPrnLDqRJleW-3eae0BWBA/view?usp=drive_web) to test teh device.
 
 BOM Electronics :
 - Arduino Nano (chinese clone works well)
@@ -34,24 +38,22 @@ BOM Motion :
 - Square Nut M3 5mm
 
 Tools :
-- 3D Printer
+- 3D Printer (I recommend at least ABS/ASA, but PETG-CF is way more rigid - PLA is not suitable)
 - Solder Iron
-- Arduino IDE
+- Arduino IDE to flash [firmware](https://github.com/m0k2001/astrofieldrotator/tree/main/Arduino/ArduinoRotatorFirmware_ver1008_switch)
 - Multimeter
 
-Her is a summary of different motor options and skills :
-| Moteur              | 17HS08-1004S | 17HS08-1004S | 17HS4001 | 17HS4001 | Nema36 + Planétaire |
-|---------------------|--------------|--------------|----------|----------|---------------------|
-| Pulley Teeth        | 16           | 20           | 16       | 20       | 20                  |
-| Torque (N.cm)       | 144          | 115          | 378      | 302      | 648                 |
-| Rel. thickness      | 0            | 0            | + 20mm   | + 20mm   | + 18mm              |
-| Steps / degree      | 80           | 64           | 80       | 64       | 576                 |
-| Precision (degre)   | 1/5          | 1/4          | 1/5      | 1/4      | 1/36                |
-| Precision (arcsec)  | 720          | 900          | 720      | 900      | 100                 |
-| Price               | +            | +            | +        | +        | ++                  |
+Her is a summary of different motor options :
+| Motor model          | 17HS08-1004S | 17HS08-1004S | 17HS4001 | 17HS4001 | Nema36 + Planetary  |
+|----------------------|--------------|--------------|----------|----------|---------------------|
+| Pulley Teeth         | 16           | 20           | 16       | 20       | 20                  |
+| Torque (N.cm)        | 144          | 115          | 378      | 302      | 648                 |
+| Rel. motor thickness | 0            | 0            | + 20mm   | + 20mm   | + 18mm              |
+| Steps / degree       | 80           | 64           | 80       | 64       | 576                 |
+| Precision (degre)    | 1/5          | 1/4          | 1/5      | 1/4      | 1/36                |
+| Precision (arcsec)   | 720          | 900          | 720      | 900      | 100                 |
+| Price                | +            | +            | +        | +        | ++                  |
 
+Using planetary gearbox NEMA 36 and 54mm rotation ring should not cost more than 120€, without 3D printing and power source.
 
-
-
-
-[]()
+Just to give a comparison, Zwo CAA is 399€, 25 N.cm torque, precision < 0,1° ( < 360 arcsec). But thickness is less important (17,5mm).
